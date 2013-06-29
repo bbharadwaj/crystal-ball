@@ -12,22 +12,12 @@
         android:id="@+id/imageView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/button1"
-        android:layout_alignLeft="@+id/button1"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
         android:scaleType="fitCenter"
         android:src="@drawable/ball01" />
-
-    <Button
-        android:id="@+id/button1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="19dp"
-        android:text="Enlighten me"
-        android:textSize="24sp" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -58,7 +48,6 @@
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_weight="0.2" />
-
     </LinearLayout>
 
 </RelativeLayout>
